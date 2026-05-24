@@ -57,7 +57,8 @@ The memory footprint on the RISC-V core is exceptionally light, leaving massive 
 
 
 ## 📂 Repository Structure
-```├── dataset/                  # Nested JSON command datasets (e.g., SNIPS)
+```
+├── dataset/                  # Nested JSON command datasets (e.g., SNIPS)
 ├── python_pipeline/
 │   ├── Preprocessing.py      # Parses JSON, builds vocab, encodes text
 │   ├── model_training.py     # PyTorch 1D-CNN definition & training loop
@@ -68,7 +69,6 @@ The memory footprint on the RISC-V core is exceptionally light, leaving massive 
     ├── esp32_inference.ino   # Main Arduino sketch (Interpreter & Serial parsing)
     ├── model.h               # Auto-generated neural weights
     ├── vocab.h               # Auto-generated C-struct binary search tree
-    └── labels.h              # Auto-generated intent label array
 ```
 
 ## 🚀 Getting Started
