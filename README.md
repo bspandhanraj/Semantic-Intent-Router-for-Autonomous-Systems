@@ -38,6 +38,7 @@ graph TD
 # Model Compression (FP32 vs INT8)
 By utilizing a 1D Convolutional Neural Network (kernel size 3) with Global Max Pooling, the model is inherently sequence-length agnostic and highly compressible.
 |Metric	|FP32 Baseline (PyTorch)|	INT8 Edge(TFLite Micro)|	Change|
+|---------------------------------------------------------------------|
 |File Size |245.5 KB	|62.1 KB | ⬇️ 74.7% |
 |Accuracy|	94.8%|	93.6%|	⬇️ 1.2%|
 |Memory Format|	Floating Point|	Integer 8-bit|	--|
