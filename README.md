@@ -77,9 +77,10 @@ Install the necessary deep learning frameworks:
 
 ```Bash
 pip install torch numpy pandas scikit-learn tensorflow datasets
+```
 2. Generate the Edge Assets
 Run the pipeline scripts in sequential order to generate the C++ headers:
-```
+
 ```Bash
 python Preprocessing.py
 python model_training.py
